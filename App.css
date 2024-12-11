@@ -1,0 +1,26 @@
+/* CSS file or style block */
+#price-histogram {
+  width: 100%;
+  height: 400px;
+}
+
+#map-container {
+  width: 100%;
+  height: 400px;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: none;
+}
+
+.AirbnbMap-container, .PriceHistogram-container {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
